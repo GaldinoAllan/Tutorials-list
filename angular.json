@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular-CRUD-navbar"
+    }
+  },
+  "defaultProject": "Angular-CRUD-navbar",
+  "cli": {
+    "analytics": "e51f96a6-9232-4fe0-b445-d9d72cd7e141"
+  }
 }
