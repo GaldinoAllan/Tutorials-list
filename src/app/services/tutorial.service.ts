@@ -40,8 +40,8 @@ export class TutorialService {
     return this.http.delete<Tutorial>(this.baseUrl);
   }
 
-  findByTitle(title): Observable<Tutorial> {
-    return this.http.get<Tutorial>(`${this.baseUrl}?title=${title}`);
+  findByTitle(title): Observable<Tutorial[]> {
+    return this.http.get<Tutorial[]>(`${this.baseUrl}?title=${title}`);
   }
 
   errorHandler(error) {
